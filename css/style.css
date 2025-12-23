@@ -387,7 +387,7 @@ slider-area
 }
 
 .single-slider {
-    background: url(../img/slider/1.jpg) no-repeat center center / cover;
+    background: url(../img/slider/fondo.png) no-repeat center center / cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1173,8 +1173,12 @@ welcome-area
 =================================*/
 
 .welcome-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(210, 105, 30, 0.81)), transparent url(../img/1.jpg) no-repeat center center / cover fixed;
-    padding-top: 85px;
+background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.81),
+    rgba(210, 105, 30, 0.81)
+  ),
+  url("../img/bienvenidos.png") no-repeat center center / cover fixed;  padding-top: 85px;
     padding-bottom: 95px;
 }
 /*
@@ -1727,7 +1731,7 @@ home-page2
 }
 
 .section-area {
-    background: url(../img/counter/3.jpg) no-repeat center center / cover;
+    background: url(../img/counter/3.jpg?v=1) no-repeat center center / cover;
     padding: 18px 0;
     position: relative;
     z-index: 1;
